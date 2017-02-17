@@ -1,0 +1,281 @@
+
+body{
+background-color:#001;
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size:60px 60px;
+background-position: 0 0, 30px 30px;
+
+}
+
+header{
+	width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+}
+
+ h1,h2{
+	font-size:1.2em;
+	margin:0;
+	padding:22px;
+	text-align:center;
+	}
+.summary{
+	
+	text-align:center;
+	margin-left:375px;
+	width: 260px;
+	height: 260px;
+	background: red;
+	-moz-border-radius: 260px;
+	-webkit-border-radius: 260px;
+	border-radius: 260px;
+}
+
+.summary p {
+	font-size:15px;
+	margin-top:10px;
+	padding:35px;
+}
+
+.preamble{
+	background-color:black;
+ background-image:
+ radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+ radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+ radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+ radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+ background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;	
+	color:white;
+	height:300px;
+	border-top:#FFFFFF 2px solid;
+	margin:0;
+	margin-right:100px;
+	margin-bottom:75px;
+	margin-left:15px;
+	padding:0;
+	width:80%;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.preamble:hover{
+	opacity:0.8;
+}
+
+h3{
+	margin-left:10px;
+  font-family: 'Roboto Condensed', sans-serif;
+	
+}
+p{
+	line-height:1;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.explanation{
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;	
+	color:white;
+	height:300px;
+	border-top:#FFFFFF 2px solid;
+	margin:0;
+	padding:0;
+	margin-right:100px;
+	margin-bottom:75px;
+	margin-left:15px;
+	width:80%;
+	opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.explanation:hover{
+	opacity:0.8;
+}
+	
+.participation{
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;	
+	color:white;
+	height:300px;
+	border-top:#FFFFFF 2px solid;
+	margin:0;
+	padding:0;
+	margin-right:100px;
+	margin-left:15px;
+	margin-bottom:75px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.participation:hover {
+   opacity: 0.9;
+   }
+
+
+.benefits{
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;	
+	color:white;
+	height:300px;
+	border-top:#FFFFFF 2px solid;
+	margin-right:100px;
+	margin-left:15px;
+	margin-bottom:75px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+   
+}
+.benefits:hover{
+	opacity:0.8;
+}
+	
+.requirements{
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;	
+	color:white;
+	height:300px;
+	border-top:#FFFFFF 2px solid;
+	margin:0;
+	padding:0;
+	padding-bottom:40px;
+	margin-right:100px;
+	margin-left:15px;
+	opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+	
+}
+.requirements:hover{
+	opacity:0.8;
+}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	
+	}
+.sidebar .wrapper { 
+	font: 17px verdana, sans-serif; 
+	line-height:1.3;
+	padding: 10px; 
+	margin-top: 260px; 
+	width: 210px; 
+	color:white;
+	background-color: gray;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 170px);
+	
+	}
+.sidebar h3.select { 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+.sidebar h3.archives { 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+.sidebar h3.resources { 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+.sidebar a {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+ul{
+	list-style:none;
+}
+
+
+.requirements p:last-child {
+	margin:10px;
+	padding:30px;
+	padding-top:50px;
+	color:white;
+}
+
+
+footer{
+	text-decoration:none;
+	width: 50px;
+	height: 50px;
+	background: red;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	padding:48px;
+	padding-top:5px;
+	margin-top:40px;
+	margin-left:500px;
+	
+}
+
+a {
+	color:#999999;}
+
+a:visited {
+	color: #bfbfbf;}
+
+a:hover{
+	color:yellow;
+}
+a:link {
+	text-decoration: none;
+  
+}
+	
